@@ -1,0 +1,25 @@
+.nav-div{
+    border: 1px solid;
+    height: 4em;
+    background-color: orange;
+    color: brown;
+}
+.flex-row{
+    display: flex;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    list-style: none;
+    align-items: center;
+    height: 4em;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
+.nav-opt{
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
