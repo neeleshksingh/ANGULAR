@@ -12,6 +12,8 @@ import { BadgeModule } from 'primeng/badge';
 import { MaskComponent } from './mask/mask.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import {TimelineModule} from 'primeng/timeline';
+import { ProductsComponent } from './products/products.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
@@ -22,14 +24,16 @@ import {TimelineModule} from 'primeng/timeline';
     FooterComponent,
     SearchComponent,
     MaskComponent,
-    TimelineComponent
+    TimelineComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ButtonModule,
     BadgeModule,
-    TimelineModule
+    TimelineModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

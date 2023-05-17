@@ -1,0 +1,6 @@
+<div
+  *ngFor="let item of items"
+  [ngStyle]="{ color: item % 2 === 0 ? 'Green' : 'Red' }"
+>
+  <p [ngStyle]="{backgroundColor: item %2 === 0? 'black' : 'Orange'}">Number is : {{ item }}</p>
+</div>
